@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import Componente from './Comp';
-import Navbar from './layout/Navbar';
-import Home from '../pages/Home';
-import Empresa from '../pages/Empresa';
-import Contato from '../pages/Contato';
+import Componente from './MyComp';
+import Navbar from './components/layout/Navbar';
+import Home from "./components/pages/Home";
+import Empresa from "./components/pages/Empresa";
+import Contato from "./components/pages/Contato";
 
 function App() {
   return (

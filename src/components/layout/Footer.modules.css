@@ -1,0 +1,19 @@
+footer {
+    background-color: #38B6FF;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 0;
+}
+
+svg {
+    font-size: 1.Sem;
+    cursor: pointer;
+}
